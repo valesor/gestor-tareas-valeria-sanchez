@@ -7,15 +7,15 @@
   "background_color": "#ffffff",
   "theme_color": "#4CAF50",
 
-  "icons": [
+   "icons": [
     {
-      "src": "img/192-icono.png",
+      "src": "../img/192-icono.png",
       "sizes": "192x192",
       "type": "image/png",
       "purpose": "any"
     },
     {
-      "src": "img/512-icono.png",
+      "src": "../img/512-icono.png",
       "sizes": "512x512",
       "type": "image/png",
       "purpose": "any"
@@ -24,13 +24,12 @@
 
   "screenshots": [
     {
-      "src": "screenshots/screen1.png",
+      "src": "../screenshots/screen1.png",
       "sizes": "800x600",
-      "type": "image/png",
-      "form_factor": "wide"
+      "type": "image/png"
     },
     {
-      "src": "screenshots/screen2.png",
+      "src": "../screenshots/screen2.png",
       "sizes": "600x800",
       "type": "image/png"
     }
