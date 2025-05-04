@@ -2,17 +2,17 @@
 
 const CACHE_NAME = "gestor-tareas-cache-v1";
 const URLS_TO_CACHE = [
-  "/", // index.html
-  "/index.html",
-  "/css/styles.css", //CSS
-  "/js/script.js",
-  "/img/icono.png",
-  "/img/192-icono.png", // icono 192×192
-  "/img/512-icono.png", // icono 512×512
-  "/img/organizacion.jpg",
-  "/json/manifest.json", // manifest
-  "/screenshots/screen1.png",
-  "/screenshots/screen2.png",
+
+  "index.html",
+  "css/styles.css", //CSS
+  "js/script.js",
+  "img/icono.png",
+  "img/192-icono.png", // icono 192×192
+  "img/512-icono.png", // icono 512×512
+  "img/organizacion.jpg",
+  "json/manifest.json", // manifest
+  "screenshots/screen1.png",
+  "screenshots/screen2.png",
 ];
 
 // 1) Instalación: guardo en caché los recursos
