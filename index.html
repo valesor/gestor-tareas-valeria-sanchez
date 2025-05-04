@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gestor de Tareas- Valeria Sanchez Ordoñez</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <link rel="icon" href="/img/icono.png" type="image/png">
+    <link rel="manifest" href="/json/manifest.json">
+    <link rel="stylesheet" href="/css/styles.css">
+</head>
+
+<body>
+    <div class="container">
+        <header>
+            <h1>Gestor de Tareas</h1>
+            <p>Organiza tu vida de forma eficiente</p>
+        </header>
+
+        <main>
+            <section class="task-input">
+                <input type="text" id="taskInput" placeholder="Escribe tu tarea..." required>
+                <div id="errorMessage"></div>
+                <select id="taskPriority">
+
+                    <option value="bajo">Prioridad Baja </option>
+                    <option value="medio">Prioridad Media</option>
+                    <option value="alto">Prioridad Alta</option>
+                </select>
+                <button id="addTaskButton">Agregar Tarea</button>
+            </section>
+
+            <section class="task-list">
+                <h3>Tareas Pendientes</h3>
+                <ul id="taskList"></ul>
+            </section>
+
+            <section class="completed-tasks">
+                <h3>Tareas Completadas</h3>
+                <ul id="completedList"></ul>
+            </section>
+
+            <!-- Sección de Motivación con Imagen y Texto -->
+            <section class="motivation">
+                <div class="row align-items-center">
+                    <div class="col-md-5">
+                        <img src="img/organizacion.jpg" alt="Organizar tareas" class="motivation-image">
+                    </div>
+                    <div class="col-md-7 container-text-motivation">
+                        <h3 class="title-text"><strong>Organizar tus tareas mejora tu vida</strong></h3>
+                        <p class="text-motivation">El orden y la planificación diaria son claves para alcanzar tus
+                            objetivos. Organizar tus
+                            tareas
+                            te ayuda a reducir el estrés y aprovechar mejor tu tiempo. Con nuestro gestor de tareas,
+                            podrás
+                            gestionar eficientemente tu día a día, logrando más con menos esfuerzo. ¡Comienza hoy mismo
+                            a organizar tu vida!</p>
+                    </div>
+                </div>
+            </section>
+        </main>
+    </div>
+    <footer>
+        <p>&copy; 2025 Gestor de Tareas - Valeria Sanchez</p>
+    </footer>
+
+
+    <script src="/js/script.js"></script>
+
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.3/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</body>
+
+</html>
